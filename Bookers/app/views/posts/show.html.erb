@@ -1,0 +1,22 @@
+<div class="showpage">
+	<div class="showpage-text">
+		<p><span>Title:</span>
+		<%= @post.title %>
+		</p>
+		<p><span>Body:</span>
+		<%= @post.body %>
+		</p>
+	</div>
+
+	<div class="show-edit">
+		<p>
+		<%= link_to "Edit", "/posts/#{@post.id}/edit" %> |
+		<%= link_to "Back", posts_path %>
+		</p>
+	</div>
+</div>
+<% if flash[:notice] %>
+	<div class="flash">
+		<%= flash[:notice] %>
+	</div>
+<% end %>

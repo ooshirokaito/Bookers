@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.toppage{
+	margin:30px;
+}
+
+span{
+	font-weight:bold;
+}
+
+.toppage-p{
+	margin-top:30px;
+	margin-left:40px;
+}
+
+.toppage-link{
+	margin-left:40px;
+	margin-top:30px;
+}
+
+.post-index{
+	margin-left:30px;
+	margin-top:20px;
+}
+
+.post-index-title{
+	font-size:2em;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+th{
+	padding-bottom:10px;
+	font-size:15px;
+}
+
+td{
+	padding-left:5px;
+	padding-right:10px;
+	padding-bottom:5px;
+	font-size:13px;
+}
+
+.main-under{
+	margin-top:20px;
+}
+
+.main-under-title{
+	font-size:20px;
+}
+
+.main-under-text{
+	font-weight:normal;
+	font-size:13px;
+	margin-top:10px
+}
+
+.showpage{
+	margin-top:20px;
+	margin-left:30px;
+}
+
+.showpage-text{
+	margin-left:30px;
+}
+
+.showpage p{
+	margin:30px;
+	font-size:13px;
+}
+
+.editpage{
+	margin:30px;
+}
+
+.editpage h2{
+	margin-bottom:15px;
+}
+
+.editpage h3{
+	font-weight:normal;
+	font-size:13px;
+	margin-top:10px;
+}
+
+textarea{
+	height:40px;
+	font-weight:bold;
+	font-size:13px;
+	width:170px;
+}
+
+input{
+	font-size:13px;
+	width:150px;
+}
+
+.editpage-under{
+	margin-top:10px;
+	font-size:13px;
+	color:#666;
+}
+
+.flash {
+  padding: 10px 0;
+  color: white;
+  background: rgb(251, 170, 88);
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
